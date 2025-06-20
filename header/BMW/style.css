@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background: url(img/car.png);
+  justify-content: space-between;
+  padding: 48px;
+}
+
+.menu-bar {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 80px;
+}
+
+header ul li {
+  color: white;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+/* Hero */
+
+.hero {
+}
